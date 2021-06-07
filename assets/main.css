@@ -1,18 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
-.component-display {
-  background-color: #858694;
-  color: white;
-  text-align: right;
-  font-weight: 200;
-  flex: 0 0 auto;
-  width: 100%;
-}
-
-.component-display > div {
-  font-size: 2.5rem;
-  padding: 0.2rem 0.7rem 0.1rem 0.5rem;
-}
-
 .component-button-panel {
   background-color: #858694;
   display: flex;
@@ -330,6 +316,20 @@ html {
       background: #00bcd4;
       box-shadow: 0px 0px 5px 2px #3be9ff;
   }
+.component-display {
+  background-color: #858694;
+  color: white;
+  text-align: right;
+  font-weight: 200;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.component-display > div {
+  font-size: 2.5rem;
+  padding: 0.2rem 0.7rem 0.1rem 0.5rem;
+}
+
 html {
   height: 100%;
   font-size: 10px;
